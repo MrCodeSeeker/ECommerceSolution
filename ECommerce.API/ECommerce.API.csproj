@@ -16,4 +16,8 @@
     <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Persistence\ECommerce.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
